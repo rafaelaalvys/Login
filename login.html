@@ -10,14 +10,14 @@
 
     <main>
         <div class="container">
-            <form action="" class="formulario">
+            <form action="login.php" method="POST" class="formulario">
                 <h2>Login</h2>
-                <input type="email" placeholder="Seu e-mail">
-                <input type="password" placeholder="Sua senha">
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <input type="password" name="senha" placeholder="Sua senha" required>
                 <input type="button" value="Entrar" id="btn">
             </form>
             <h3>Ainda não tem conta?</h3>
-            <h4><a href="#">Cadastrar-se</a></h4>
+            <h4><a href="cadastro.html">Cadastrar-se</a></h4>
         </div>
     </main>
     
